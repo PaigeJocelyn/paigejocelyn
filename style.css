@@ -1,0 +1,155 @@
+body {
+   background-color:  rgb(190, 131, 215);
+}
+
+a:link {
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: gold;
+}
+
+a:visited {
+color: gold
+}
+
+h2 {
+    justify-content: center;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.header {
+    display: flex;;
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: rgb(190, 131, 215);
+    padding: 15px;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    margin-right:auto;
+}
+
+.socials {
+    display:flex;
+    flex:1;
+    justify-content: right;
+    padding-right:15px;
+}
+
+.about {
+    display:flex;
+    flex:1 1 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(245, 204, 248);
+}
+
+.selfie {
+    max-width: 450px;
+    flex:1;
+    border-radius: 75px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    margin: auto;
+}
+
+.description {
+    display: flex;;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    color: rgb(190, 131, 215);
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 450px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding:10px;
+    margin-top: 10px;
+    background-color: rgb(190, 131, 215);
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.gallery {
+    display:flex;
+    flex:1 1 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.gal {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: larger;
+    color: rgb(245, 204, 248);
+}
+
+.pics {
+    border-radius: 70px;
+    margin: auto;
+    display: flex;
+    max-width: 400px;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caption {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    display: flex;
+    color:rgb(245, 204, 248);
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.quote {
+    font-style: italic;
+    flex:0;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    background-color: rgb(245, 204, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px;
+    text-align: center;
+    color: rgb(190, 131, 215);
+}
+
+.kei {
+    flex:0;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: rgb(190, 131, 215);
+    padding: 20px;
+}
+
+.copyright {
+    color:rgb(245, 204, 248);
+    padding: 25px;
+    text-align: center;
+}
